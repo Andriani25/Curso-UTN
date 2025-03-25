@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "node dist/index.js",
-    "dev": "tsx watch src/class3/index.ts",
+    "js" : "node --watch src/class4/index.js",
+    "dev": "tsx watch src/class4/index.js",
     "build": "tsc"
   },
   "repository": {
